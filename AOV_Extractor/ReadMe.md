@@ -22,7 +22,7 @@ Assuming that you have read the above documentation and created the directories 
 
   m.addCommand("Extract all AOVs","aov_extract.performExtractAOV()","","nuke_aov_extract.png")  #you may leave the last argument empty ("") meant for the icon image, if you don't have one
   ```
-* On starting a new Session of Nuke, you will notice the new Menu Item that you creaeted on Top, and on clicking it, you'll see this tool in Drop down.
+* On starting a new Session of Nuke, you will notice the new Menu Item that you created on Top, and on clicking it, you'll see this tool in Drop down.
 * Now, you can read an exr Render using a **'Read' node**, click on it, and click on this tool from the Menu Shelf.
 * Bingo, you'll have all your AOVs extracted into your Node Graph!
 
