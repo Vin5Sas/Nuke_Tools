@@ -27,5 +27,5 @@ Assuming that you have read the above documentation and created the directories 
 * Bingo, you'll have all your AOVs extracted into your Node Graph!
 
 ## Progress on this Tool
-This current version is only the first version (v1.0.0) and it works only with EXRs for now. It has been tested on a fixed number of AOVs (mostly the common ones like 'P', 'Pz/Depth', 'N', 'Oc', 'rgb', 'diffuse', 'specular', 'metallic', 'specrough', etc), while progress is being made to expand the range of AOVs it can extract.
+This current version is only the first version (v1.0.0) and it works only with EXRs for now (**that too renders made in Houdini**). It has been tested on a fixed number of AOVs (mostly the common ones like 'P', 'Pz/Depth', 'N', 'Oc', 'rgb', 'diffuse', 'specular', 'metallic', 'specrough', etc), while progress is being made to expand the range of AOVs it can extract, and with Deep renders too.
 Also, there is a possibility of getting an **easy-to-use GUI using PySide2** to facilitate selection of AOVs from all the existing AOVs and displaying them intact in the GUI. These updates will follow in the future. 
